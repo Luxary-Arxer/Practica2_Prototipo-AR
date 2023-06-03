@@ -34,7 +34,6 @@ public class NewBehaviourScript : MonoBehaviour
             float YaxisRotation = Input.GetAxis("Mouse Y") * rotationSpeed;
 
 
-
             transform.Rotate(Vector3.down, XaxisRotation);
 
             transform.Rotate(Vector3.right, YaxisRotation);
